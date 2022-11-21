@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maquette normale</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">  
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Work+Sans:ital,wght@0,200;0,400;0,600;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style-maquette-normale.css" />    </head>
+    <body> 
+        <header>
+            <h1>COMPLETEZ VOTRE PROFIL</h1>
+        </header>
+                <main>
+                    <form action="" method="">
+                        <div id="left-block">
+                            <h2>INFORMATIONS DE CONNEXION</h2>
+                                <fieldset>
+                                    <label><b>Nom d'utilisateur</b></label><br>
+                                    <input type="text" name="nom-utilisateur" required><br>
+                                </fieldset>
+                                <fieldset>
+                                    <label><b>Email</b></label><br>
+                                    <input type="text" name="email" required><br>
+                                </fieldset>
+                                <fieldset>
+                                    <label><b>Mot de passe</b></label><br>
+                                    <input type="text" name="mot-de-passe" required><br>
+                                </fieldset>
+                                <fieldset>
+                                    <label><b>Confirmer mot de passe</b></label><br>
+                                    <input type="text" name="confirmermdp" required><br>
+                                </fieldset>
+                            <button><input type="submit" value="ENREGISTRER"></button>
+                        </div>
+                        <div id="center-block">
+                            <h2>PROFIL PROFESSIONNEL</h2>
+                                <div>
+                                    <h3>Niveau d'&eacute;tudes</h3>
+                                        <input type="checkbox" id="cap-bep" name="cap-bep">
+                                        <label for="cap-bep">CAP-BEP</label><br>
+                                        <input type="checkbox" id="bac" name="bac">
+                                        <label for="bac">Bac</label><br>
+                                        <input type="checkbox" id="bac2" name="bac2">
+                                        <label for="bac2">Bac +2</label><br>
+                                        <input type="checkbox" id="bac3" name="bac3">
+                                        <label for="bac3">Bac +3</label><br>
+                                        <input type="checkbox" id="bac5" name="bac5">
+                                        <label for="bac5">Bac +5</label><br>
+                                        <input type="checkbox" id="bac7" name="bac7">
+                                        <label for="bac7">Bac +7</label><br>
+                                </div>
+                                <div>
+                                    <h3>Profil de d&eacute;veloppeur</h3>
+                                        <input type="checkbox" id="dev-web-back" name="dev-web-back">
+                                        <label for="dev-web-back">Dev Web Backend</label><br>
+                                        <input type="checkbox" id="dev-web-front" name="dev-web-front">
+                                        <label for="dev-web-front">Dev Web Frontend</label><br>
+                                        <input type="checkbox" id="dev-web-full" name="dev-web-full">
+                                        <label for="dev-web-full">Dev Web Fullstack</label><br>
+                                        <input type="checkbox" id="dev-jv" name="dev-jv">
+                                        <label for="dev-jv">Dev Jeux Vid&eacute;o</label><br>
+                                        <input type="checkbox" id="dev-log" name="dev-log">
+                                        <label for="dev-log">Dev Logiciel</label><br>
+                                        <input type="checkbox" id="dev-mob" name="dev-mob">
+                                        <label for="dev-mob">Dev Mobile</label><br>
+                                </div>
+                            <button><input type="submit" value="ENREGISTRER"></button>
+                        </div>
+                        <div id="right-block">
+                            <h2>CENTRES D'INT&#201;RÊT</h2>
+                                <input type="checkbox" id="banque" name="banque">
+                                <label for="banque">Banque</label><br>
+                                <input type="checkbox" id="pub" name="pub">
+                                <label for="pub">Publicit&eacute;</label><br>
+                                <input type="checkbox" id="finance" name="finance">
+                                <label for="finance">Finance</label><br>
+                                <input type="checkbox" id="sante" name="sante">
+                                <label for="sante">Sant&eacute;</label><br>
+                                <input type="checkbox" id="communication" name="communication">
+                                <label for="communication">Communication</label><br>
+                                <input type="checkbox" id="defense" name="defense">
+                                <label for="defense">Défense</label><br>
+                                <input type="checkbox" id="education" name="education">
+                                <label for="education">&Eacute;ducation</label><br>
+                                <input type="checkbox" id="politique" name="politique">
+                                <label for="politique">Politique</label><br>
+                            <button><input type="submit" value="ENREGISTRER"></button>
+                        </div>
+                    </form>
+                </main>
+            <footer></footer>    
+        <script src="maquette-normale.js"></script>
+    </body>
+</html>
