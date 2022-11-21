@@ -1,7 +1,6 @@
 body>main>form{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
 }
 
 header{
@@ -28,6 +27,7 @@ h2{
 footer{
     background-color: #253879;
     padding: 15px;
+    
 }
 
 #left-block div{
@@ -38,7 +38,11 @@ footer{
 }
 
 #left-block div input[type="text"], input[type="email"]{
-    width: 100%;
+    width: 99%;
+    border: none;
+    background-color: #dfe4f7;
+    margin: 10px 0 0 0;
+    padding: 5px;
 }
 
 #center-block div{
@@ -47,9 +51,27 @@ footer{
     padding-left: 20px;
 }
 
+#center-block input[type="text"]{
+    border-radius: 10px;
+}
+
 #center-block{
     border-left: solid 1.5px #dfe4f7;
     border-right: solid 1.5px #253879;
+}
+
+#center-block div div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#center-block div div fieldset{
+    margin-top: auto;
+}
+
+#center-block div div:nth-of-type(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 fieldset{
@@ -78,7 +100,18 @@ fieldset{
     background-color: #3a61ef;
     color: white;
     padding: 15px;
-    margin: 30px 0 0 12px;
+    margin: 40px 0 0 12px;
     border: none;
     font-family: 'Work Sans', sans-serif;
+}
+
+#right-block div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0 0 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#right-block div input[type="checkbox"]{
+    margin: 15px;
 }
