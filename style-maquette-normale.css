@@ -1,7 +1,7 @@
-body>main{
+body>main>form{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr;
 }
 
 header{
@@ -14,4 +14,71 @@ h1{
     color: #253879;
     text-align: center;
     font-family: 'Oswald', sans-serif;
+}
+
+h2{
+    color: #eafbf0;
+    background-color: #3a61ef;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+footer{
+    background-color: #253879;
+    padding: 15px;
+}
+
+#left-block div{
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    padding-left: 0;
+    padding-top: 20px;
+}
+
+#left-block div input[type="text"], input[type="email"]{
+    width: 100%;
+}
+
+#center-block div{
+    font-family: 'Work Sans', sans-serif;
+    margin: auto;
+    padding-left: 20px;
+}
+
+#center-block{
+    border-left: solid 1.5px #dfe4f7;
+    border-right: solid 1.5px #253879;
+}
+
+fieldset{
+    border: none;
+}
+
+#left-block .button{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 30px 0 0 12px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#center-block .button{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 30px 0 0 25px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#right-block .button{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 30px 0 0 12px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
 }
