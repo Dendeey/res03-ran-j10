@@ -115,3 +115,42 @@ fieldset{
 #right-block div input[type="checkbox"]{
     margin: 15px;
 }
+
+#button1{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 40px 0 0 12px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#button2{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 40px 0 0 12px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#button3{
+    background-color: #3a61ef;
+    color: white;
+    padding: 15px;
+    margin: 40px 0 0 12px;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.LeftBlock:not(.active){
+    opacity: 0.35;
+}
+
+.CenterBlock:not(.active){
+    opacity: 0.35;
+}
+
+.RightBlock:not(.active){
+    opacity: 0.35;
+}
